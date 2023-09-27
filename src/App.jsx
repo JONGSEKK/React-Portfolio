@@ -12,11 +12,7 @@ import Textbox from './components/Textbox'
 function App() {
   return (
     <div className='bg-black h-screen'>
-      <Image1/>
-      <Textbox/>
-      <Img2/>
-      <Textbox/>
-      <Img3/>
+      <Main/>
     </div>
   )
 }

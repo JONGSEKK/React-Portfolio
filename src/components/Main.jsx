@@ -4,10 +4,10 @@ import { TypeAnimation } from 'react-type-animation'
 
 const Main = () => {
   return (
-    <div id='main'>
-        {/* <img src={gambar1} className='h-[70vh] ml-[20%] pt-[4%]' />
+    <div id='main' className='h-full w-full'>
+        <img src={gambar1} className='h-[70vh] m-auto pt-[4%] max-sm:scale-50 max-sm:duration-500 max-md:duration-1000' />
         <div className='text-center'>
-            <h1 className='text-white text-5xl pt-[2%]'>I'm Rikey Kurniawan</h1>
+            <h1 className='te text-5xl pt-[2%]'>I'm Rikey Kurniawan</h1>
             <h2 className='text-white text-4xl pt-[1%]'>I'm a
             <TypeAnimation
                 sequence={[
@@ -20,11 +20,11 @@ const Main = () => {
                 ]}
                 wrapper="span"
                 speed={50}
-                style={{ fontSize: '1em', display: 'inline-block', paddingLeft: '5px' }}
+                style={{ fontSize: '1em', display: 'inline-block', paddingLeft: '5px' , color: 'red' }}
                 repeat={Infinity}
                 /> 
             </h2>
-        </div> */}
+        </div>
     </div>
     
   )

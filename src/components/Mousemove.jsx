@@ -38,7 +38,7 @@ function Mousemove() {
     const deltaY = (e.clientY - centerY) / 20; // Adjust the divisor for more/less movement
 
     const images = e.currentTarget.querySelectorAll('img');
-    images.forEach(img => {
+    images.forEach(img => { 
       img.style.transform = `translate(${deltaX}px, ${deltaY}px)`;
     });
   };
