@@ -7,12 +7,14 @@ import Image1 from './components/image1'
 import Img2 from './components/Image2'
 import Img3 from './components/Image3'
 import Textbox from './components/Textbox'
+import Landing from './views/LandingPage'
+
 // import background from './assets/pattern2.svg'
 
 function App() {
   return (
-    <div className='bg-black h-screen'>
-      <Main/>
+    <div>
+      <Landing/>
     </div>
   )
 }
